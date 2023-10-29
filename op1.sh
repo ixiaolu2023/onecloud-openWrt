@@ -16,4 +16,7 @@
 # Add a feed source
 echo 'src-git xd https://github.com/shiyu1314/onecloud-package' >>feeds.conf.default
 echo 'src-git dns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
+echo 'src-git amlogic https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-amlogic' >>feeds.conf.default
+echo 'src-git quickstart https://github.com/kenzok8/small-package/tree/main/luci-app-quickstart' >>feeds.conf.default
+echo 'src-git ssr-plus https://github.com/kenzok8/small-package/tree/main/luci-app-ssr-plus' >>feeds.conf.default
 svn co https://github.com/shiyu1314/openwrt-onecloud/trunk/target/linux/meson target/linux/meson
