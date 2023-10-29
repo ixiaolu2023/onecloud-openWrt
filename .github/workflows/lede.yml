@@ -1,4 +1,4 @@
-name: immortalwrt
+name: openwrt
 
 on:
   workflow_dispatch:
